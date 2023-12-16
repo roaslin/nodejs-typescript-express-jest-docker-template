@@ -10,7 +10,7 @@
     "outDir": "./dist",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
-    "target": "ES2023",
+    "target": "ESNext",
     "lib": ["ES2023"],
     "types": [
       "jest", "node",

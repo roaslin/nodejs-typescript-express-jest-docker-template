@@ -5,8 +5,8 @@ const app: Express = express();
 
 app.use(cors()).use(express.json()).options('*', cors());
 
-app.post('/hello', async () => {
-    return 'hello world';
+app.get('/', (req, res) => {
+    res.send('Hello World!');
 });
 
 // ports
